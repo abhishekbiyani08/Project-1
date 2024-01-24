@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+	min-height: 100vh;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#heading {
+	animation-duration: 1.2s;
+  	animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+	  margin-left: 10%;
+	  width: 20%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+}
+#heading2 {
+	animation-duration: 1.2s;
+  	animation-name: slidein2;
+	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+	color: darkblue;
+	background-color: white;
+}
+@keyframes slidein2 {
+	from {
+	  margin-right: 10%;
+	  width: 150%;
+	}
+  
+	to {
+	  margin-right: 0%;
+	  width: 100%;
+	}
+}
+
+#userInput {
+	transition: background-color .5s;
+	margin-right: 30px;
+}
+#userInput:hover {
+	background-color: #cbcbcb;
+	color: #000000;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #000000;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+#enter {
+	border: none;
+    height: 40px;
+    width: 90px;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #ffffff;
+	background-image: linear-gradient(#025F70, #009cb8);
+	transition: background-image 1s;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-image: linear-gradient(green, rgb(0, 200, 0));
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 3px solid #025f70;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+}
+
+li:hover {
+	background: #76CFE0;
+    color: #000000;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 50%;
+	padding: 5px;
+	border: none;
+    height: 40px;
+}
+
+.done {
+	background: #00bd29 !important;
+	text-decoration: line-through;
+	color: #ffffff;
+}
+
+.done:hover {
+    background: #ffffff;
+    color: black;
+}
+
+.delete {
+	display: none;
+}
+
+#head {
+	text-align: center;
+	background-image: linear-gradient(white, transparent);
+	padding: 3px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+}
+#one, #two{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
